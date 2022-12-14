@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     private var socialEmail: String? = null
      private var socialName: String? = null
     private var ankita:String?=null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
